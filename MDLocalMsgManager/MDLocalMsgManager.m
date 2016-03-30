@@ -38,16 +38,16 @@ static MDLocalMsgManager *myManager = nil;
     [allLocalMsgArray removeAllObjects];
     for (NSDictionary *tempDic in result) {
         MDLocalMsgManager *tempMsg = [MDLocalMsgManager new];
-        tempMsg.msgContent = [tempDic objectForKey:@"content"];
-        tempMsg.msgTime = [tempDic objectForKey:@"create_time"];
-        tempMsg.msgId = [tempDic objectForKey:@"id"];
-        tempMsg.msgImageUrl = [tempDic objectForKey:@"img"];
-        tempMsg.msgP = [tempDic objectForKey:@"p"];
-        tempMsg.msgStatus = [tempDic objectForKey:@"status"];
-        tempMsg.msgTitle = [tempDic objectForKey:@"title"];
-        tempMsg.msgType = [tempDic objectForKey:@"type"];
-        tempMsg.msgUserId = [tempDic objectForKey:@"user_id"];
-        tempMsg.msgClikUrl = [tempDic objectForKey:@"url"];
+//        tempMsg.msgContent = [tempDic objectForKey:@"content"];
+//        tempMsg.msgTime = [tempDic objectForKey:@"create_time"];
+//        tempMsg.msgId = [tempDic objectForKey:@"id"];
+//        tempMsg.msgImageUrl = [tempDic objectForKey:@"img"];
+//        tempMsg.msgP = [tempDic objectForKey:@"p"];
+//        tempMsg.msgStatus = [tempDic objectForKey:@"status"];
+//        tempMsg.msgTitle = [tempDic objectForKey:@"title"];
+//        tempMsg.msgType = [tempDic objectForKey:@"type"];
+//        tempMsg.msgUserId = [tempDic objectForKey:@"user_id"];
+//        tempMsg.msgClikUrl = [tempDic objectForKey:@"url"];
         [allLocalMsgArray addObject:tempMsg];
     }
 }
