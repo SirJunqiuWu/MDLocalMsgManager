@@ -84,7 +84,6 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-MDLocalMsgManager_Tests/Addition.framework"
   install_framework "Pods-MDLocalMsgManager_Tests/MDLocalMsgManager.framework"
   install_framework "Pods-MDLocalMsgManager_Tests/Expecta.framework"
   install_framework "Pods-MDLocalMsgManager_Tests/Expecta_Snapshots.framework"
@@ -92,7 +91,6 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-MDLocalMsgManager_Tests/Specta.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-MDLocalMsgManager_Tests/Addition.framework"
   install_framework "Pods-MDLocalMsgManager_Tests/MDLocalMsgManager.framework"
   install_framework "Pods-MDLocalMsgManager_Tests/Expecta.framework"
   install_framework "Pods-MDLocalMsgManager_Tests/Expecta_Snapshots.framework"

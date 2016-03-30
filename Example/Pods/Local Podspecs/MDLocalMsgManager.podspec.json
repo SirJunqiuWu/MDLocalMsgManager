@@ -21,10 +21,5 @@
     "MDLocalMsgManager": [
       "Pod/Assets/*.png"
     ]
-  },
-  "dependencies": {
-    "Addition": [
-      "~> 0.0.7"
-    ]
   }
 }

@@ -7,7 +7,6 @@
 //
 
 #import "MDLocalMsgManager.h"
-#import <Addition/AdditionFrameworks.h>
 
 static MDLocalMsgManager *myManager = nil;
 @implementation MDLocalMsgManager
@@ -39,16 +38,16 @@ static MDLocalMsgManager *myManager = nil;
     [allLocalMsgArray removeAllObjects];
     for (NSDictionary *tempDic in result) {
         MDLocalMsgManager *tempMsg = [MDLocalMsgManager new];
-        tempMsg.msgContent = [tempDic getStringValueForKey:@"content"];
-        tempMsg.msgTime = [tempDic getStringValueForKey:@"create_time"];
-        tempMsg.msgId = [tempDic getStringValueForKey:@"id"];
-        tempMsg.msgImageUrl = [tempDic getStringValueForKey:@"img"];
-        tempMsg.msgP = [tempDic getStringValueForKey:@"p"];
-        tempMsg.msgStatus = [tempDic getStringValueForKey:@"status"];
-        tempMsg.msgTitle = [tempDic getStringValueForKey:@"title"];
-        tempMsg.msgType = [tempDic getStringValueForKey:@"type"];
-        tempMsg.msgUserId = [tempDic getStringValueForKey:@"user_id"];
-        tempMsg.msgClikUrl = [tempDic getStringValueForKey:@"url"];
+        tempMsg.msgContent = [tempDic objectForKey:@"content"];
+        tempMsg.msgTime = [tempDic objectForKey:@"create_time"];
+        tempMsg.msgId = [tempDic objectForKey:@"id"];
+        tempMsg.msgImageUrl = [tempDic objectForKey:@"img"];
+        tempMsg.msgP = [tempDic objectForKey:@"p"];
+        tempMsg.msgStatus = [tempDic objectForKey:@"status"];
+        tempMsg.msgTitle = [tempDic objectForKey:@"title"];
+        tempMsg.msgType = [tempDic objectForKey:@"type"];
+        tempMsg.msgUserId = [tempDic objectForKey:@"user_id"];
+        tempMsg.msgClikUrl = [tempDic objectForKey:@"url"];
         [allLocalMsgArray addObject:tempMsg];
     }
 }

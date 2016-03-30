@@ -1,5 +1,4 @@
 PODS:
-  - Addition (0.0.7)
   - Expecta (1.0.5)
   - Expecta+Snapshots (2.0.0):
     - Expecta (~> 1.0)
@@ -9,8 +8,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.0.7)
   - FBSnapshotTestCase/SwiftSupport (2.0.7):
     - FBSnapshotTestCase/Core
-  - MDLocalMsgManager (0.0.1):
-    - Addition (~> 0.0.7)
+  - MDLocalMsgManager (0.0.1)
   - Specta (1.0.5)
 
 DEPENDENCIES:
@@ -25,11 +23,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Addition: 3ddcf9926e6d0dd10884934eb3b9dfe208e8ca37
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
   Expecta+Snapshots: 29b38dd695bc72a0ed2bea833937d78df41943ba
   FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
-  MDLocalMsgManager: 107d227b880f515a3d1b0c68e05f54f50f7fa054
+  MDLocalMsgManager: 82baf88778bb8f4fd6fd06a2878b124821c6d045
   Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
 
 COCOAPODS: 0.39.0
