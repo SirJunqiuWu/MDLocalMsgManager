@@ -1,0 +1,6 @@
+framework module MDLocalMsgManager {
+  umbrella header "MDLocalMsgManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

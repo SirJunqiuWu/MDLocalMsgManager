@@ -1,0 +1,6 @@
+framework module Pods_MDLocalMsgManager_Tests {
+  umbrella header "Pods-MDLocalMsgManager_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
