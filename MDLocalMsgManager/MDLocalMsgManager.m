@@ -7,6 +7,7 @@
 //
 
 #import "MDLocalMsgManager.h"
+#import <Addition/AdditionFrameworks.h>
 
 static MDLocalMsgManager *myManager = nil;
 @implementation MDLocalMsgManager

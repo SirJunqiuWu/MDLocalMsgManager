@@ -17,7 +17,7 @@ MDLocalMsgManager is available through [CocoaPods](http://cocoapods.org). To ins
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "MDLocalMsgManager"
+pod "MDLocalMsgManager",'~> 0.0.1'
 ```
 
 ## Author

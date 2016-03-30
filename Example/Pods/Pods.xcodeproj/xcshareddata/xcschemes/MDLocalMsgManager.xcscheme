@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'FC466EDB93F9B9655BE1C667'
+               BlueprintIdentifier = '505C6073CAD16FF206A524F1'
                BlueprintName = 'MDLocalMsgManager'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'MDLocalMsgManager.framework'>

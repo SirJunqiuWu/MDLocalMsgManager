@@ -1,25 +1,30 @@
 {
   "name": "MDLocalMsgManager",
-  "version": "0.1.0",
-  "summary": "A short description of MDLocalMsgManager.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/MDLocalMsgManager",
+  "version": "0.0.1",
+  "summary": "对本地消息进行的一个解析管理类.",
+  "description": "对本地消息进行的一个解析管理类,很方便使用.",
+  "homepage": "https://github.com/SirJunqiuWu/MDLocalMsgManager",
   "license": "MIT",
   "authors": {
     "Jack": "1071034992@qq.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/MDLocalMsgManager.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/SirJunqiuWu/MDLocalMsgManager.git",
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "7.0"
   },
   "requires_arc": true,
-  "source_files": "Pod/Classes/**/*",
+  "source_files": "MDLocalMsgManager/*.{h,m}",
   "resource_bundles": {
     "MDLocalMsgManager": [
       "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "Addition": [
+      "~> 0.0.7"
     ]
   }
 }
