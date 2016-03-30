@@ -37,6 +37,7 @@ static MDLocalMsgManager *myManager = nil;
 - (void)creatLocalMsgWithResult:(NSArray *)result{
     [allLocalMsgArray removeAllObjects];
     for (NSDictionary *tempDic in result) {
+        NSLog(@"%@",tempDic);
         MDLocalMsgManager *tempMsg = [MDLocalMsgManager new];
 //        tempMsg.msgContent = [tempDic objectForKey:@"content"];
 //        tempMsg.msgTime = [tempDic objectForKey:@"create_time"];
